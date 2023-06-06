@@ -1,5 +1,9 @@
 package api
 
-func Ф(w http.ResponseWriter, r *http.Request) {
-	// do something
+import (
+    "net/http"
+)
+
+func Tool(w http.ResponseWriter, r *http.Request)  {
+    // todo
 }
