@@ -1,7 +1,11 @@
 {
   "routes": [
     {
-      "src": "/.*",
+      "src": "/live/.*",
+      "dest": "/api/live.go"
+    },
+    {
+      "src": "/",
       "dest": "/api/index.go"
     }
   ]
